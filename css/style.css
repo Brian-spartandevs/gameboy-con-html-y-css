@@ -1,0 +1,12 @@
+body{
+    background-color: black;
+}
+
+.modelo{
+    width: 400px;
+    height: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(146, 132, 132);
+    border-radius: 10px 10px 60px 10px;
+}
