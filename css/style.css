@@ -1,5 +1,5 @@
 body{
-    background-color: black;
+    background-color: steelblue;
 }
 
 .modelo{
@@ -7,6 +7,53 @@ body{
     height: 600px;
     margin-left: auto;
     margin-right: auto;
-    background-color: rgb(146, 132, 132);
-    border-radius: 10px 10px 60px 10px;
+    background-color: rgb(236, 216, 216);
+    border-radius: 15px 15px 80px 15px;
+    box-shadow: 10px 10px 10px 0px black;
+}
+
+.esquina-izquierda,
+.esquina-derecha,
+.centro{
+    height: 30px;
+    border-style: solid;
+    border-color: rgb(184, 167, 167);
+}
+
+.contenedor-de-cabecera{
+    display: flex;
+}
+
+.esquina-derecha,
+.esquina-izquierda{
+    width: 50px;
+    border-width: 0px 0px 9px 0px;
+}
+
+.centro{
+    width: 71%;
+    border-width: 0px 9px 9px 9px;
+}
+
+.pantalla{
+    margin: 5% auto 0% auto;
+    width: 70%;
+    height: 45%;
+    border-radius: 10px 10px 70px 10px;
+    background-color: grey;
+    border-color: rgb(83, 83, 83);
+    border-style: solid;
+    border-width: 0px 5px 5px 0px;
+}
+
+/* .bandera{
+    width: 50px;
+    height: 20px;
+    background-image: linear-gradient(blue 33.33%,grey 33.33%, grey 66.66%, red 33.33%);
+} */
+
+.bandera{
+    width: 20px;
+    height: 20px;
+    
 }
