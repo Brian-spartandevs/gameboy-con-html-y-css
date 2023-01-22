@@ -1,5 +1,6 @@
 body{
     background-color: steelblue;
+    box-sizing: border-box;
 }
 
 .modelo{
@@ -44,16 +45,62 @@ body{
     border-color: rgb(83, 83, 83);
     border-style: solid;
     border-width: 0px 5px 5px 0px;
+    padding-top: 10px;
 }
 
-/* .bandera{
-    width: 50px;
-    height: 20px;
-    background-image: linear-gradient(blue 33.33%,grey 33.33%, grey 66.66%, red 33.33%);
-} */
-
 .bandera{
+    position: absolute;
+    margin-left: 15px;
+    width: 55px;
+}
+
+.bandera-2{
     width: 20px;
-    height: 20px;
-    
+    margin-left: 88%;
+}
+
+.bandera,
+.bandera-2{
+    height: 15px;
+    box-shadow: 0px 3.5px blue inset, 0px -3.5px red inset ;
+}
+
+.p1{
+    position: absolute;
+    margin-left: 75px;
+    margin-top: 3px;
+}
+
+.p1,
+.p2{
+    font-size: 0.6rem;
+}
+
+.battery{
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: red;
+    border-width: 2px;
+    border-color: rgb(163, 0, 0) transparent transparent rgb(163, 0, 0);
+    border-style: solid;
+    margin-top: 80px;
+    margin-left: 20px;
+}
+
+.p2{
+    position: absolute;
+    margin-top: 25px;
+    margin-left: -17px;
+}
+
+.screen{
+    margin: 20px auto 0px auto;
+    width: 170px;
+    height: 170px;
+    background-color: rgb(65, 165, 65);
+    border-color: rgb(45, 112, 45) rgb(59, 151, 59) rgb(59, 151, 59) rgb(45, 112, 45);
+    border-width: 7px;
+    border-style: solid;
 }
