@@ -104,3 +104,58 @@ body{
     border-width: 7px;
     border-style: solid;
 }
+
+.circle-pad{
+    position: absolute;
+    margin-left: 30px;
+    margin-top: 17px;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-image: conic-gradient(from 30deg,white, grey, white, grey, white);   
+}
+
+.pad,
+.pad-2{
+    position: absolute;
+    border-radius: 10px;
+    border: grey solid;
+    background-color: black;
+}
+
+.pad{
+    margin-top: 69px;
+    margin-left: 50px;
+    width: 100px;
+    height: 45px;
+    border-width: 2px 5px;
+}
+
+.pad-2{
+    margin-top: 38px;
+    margin-left: 82px;
+    width: 45px;
+    height: 100px;
+    border-width: 5px 2px;
+}
+
+.circle-pad-2{
+    position: absolute;
+    z-index: 1;
+    margin-left: 87px;
+    margin-top: 73px;
+    width: 40px;
+    height: 40px;
+    background-image: conic-gradient(white, black, black, grey, rgb(15, 15, 15),  rgb(15,15,15), white);
+    border-radius: 50px;
+}
+
+.bgc-black{
+    position: absolute;
+    margin-top: 71px;
+    margin-left: 80px;
+    width: 53px;
+    height: 45px;
+    background-color: black;
+}
+
