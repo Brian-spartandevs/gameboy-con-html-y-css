@@ -233,3 +233,18 @@ body{
     margin-top: 176px;
     margin-left: 184px;
 }
+
+.cont-rejilla{
+    display: flex;
+    gap: 10px;
+    position: absolute;
+    margin-top: 165px;
+    margin-left: 278px;
+    rotate: -34deg;
+}
+
+.rejillas{
+    width: 14px;
+    height: 65px;
+    background-color: grey;
+}
