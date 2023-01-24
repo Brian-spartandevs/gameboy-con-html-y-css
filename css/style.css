@@ -164,10 +164,10 @@ body{
     width: 160px;
     height: 85px;
     border-radius: 60px;
-    margin-top: 39px;
-    margin-left: 220px;
+    margin-top: 25px;
+    margin-left: 230px;
     background-image: linear-gradient(grey, white);
-    rotate: -28deg ;
+    rotate: -30deg ;
 }
 
 .boton-1,
@@ -177,18 +177,18 @@ body{
     height: 50px;
     border-radius: 50px;
     background-color: red;
-    border-color: rgb(255, 56, 56) rgb(218, 2, 2) rgb(218, 2, 2) rgb(255, 56, 56);
+    border-color: rgb(255, 56, 56) rgb(189, 1, 1) rgb(189, 1, 1) rgb(255, 56, 56);
     border-style: solid;
 }
 
 .boton-1{
-    margin-top: 68px;
-    margin-left: 245px;
+    margin-top: 58px;
+    margin-left: 252px;
 }
 
 .boton-2{
-    margin-top: 35px;
-    margin-left: 300px;
+    margin-top: 22px;
+    margin-left: 311px;
 }
 
 .boton-select,
